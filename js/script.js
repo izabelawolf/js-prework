@@ -1,4 +1,4 @@
-let argComputerMove, argMoveId, argPlayerMove, computerMove, playerInput, playerMove, randomNumber;
+let computerMove, playerInput, playerMove, randomNumber;
 
 /**
  * Describe this function...
@@ -46,7 +46,7 @@ console.log('ruch komputera to: ' + computerMove);
 displayResult(playerMove, computerMove);
 
 
-const argButtonName, buttonNozyce, buttonPaper, buttonRock, buttonScissors, buttonTest;
+const buttonNozyce, buttonPaper, buttonRock, buttonScissors, buttonTest;
 
 /**
  * Describe this function...
@@ -66,11 +66,6 @@ buttonNozyce.addEventListener('click', function(){ buttonClicked('Guzik Nozyce')
 
 //ustalenie ruchu gracza
 let playerInput, playerMove;
-
-
-1 + 1;
-
-1 + 1;
 
 playerMove = argButtonName;
 console.log('Wpisana odpowiedź to: ' + playerInput);
