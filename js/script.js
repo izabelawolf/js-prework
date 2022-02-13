@@ -1,6 +1,11 @@
 const buttonRock = document.getElementById('button-rock');
 const buttonPaper = document.getElementById('button-paper');
-const buttonNozyce = document.getElementById('button-scissors');
+const buttonScissors = document.getElementById('button-scissors');
+
+function buttonClicked(argButtonName) {
+  clearMessages();
+  console.log(argButtonName + ' został kliknięty');
+}
 
 function getMoveName(argMoveId) {
   console.log('wywołano funkcję getMoveName z argumentem: ' + argMoveId);
@@ -38,11 +43,6 @@ console.log('wylosowana liczba to: ' + randomNumber);
 const computerMove = getMoveName(randomNumber);
 console.log('ruch komputera to: ' + computerMove);
 displayResult(playerMove, computerMove);
-
-function buttonClicked(argButtonName) {
-  clearMessages();
-  console.log(argButtonName + ' został kliknięty');
-}
 
 buttonRock.addEventListener('click', function(){ buttonClicked('Guzik Kamien'); });
 buttonPaper.addEventListener('click', function(){ buttonClicked('Guzik Papier'); });
