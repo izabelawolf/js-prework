@@ -47,6 +47,6 @@ function displayResult(argPlayerMove, argComputerMove) {
 
 buttonRock.addEventListener('click', function(){ buttonClicked('kamień'); });
 buttonPaper.addEventListener('click', function(){ buttonClicked('papier'); });
-buttonNożyce.addEventListener('click', function(){ buttonClicked('nożyce'); });
+buttonScissors.addEventListener('click', function(){ buttonClicked('nożyce'); });
 
 
